@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/NavBar";
 
-export default function Home() {
+export default function AboutUs() {
   return (
     <>
       <Head>
@@ -17,29 +17,25 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <div className={styles.center}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              fontSize: "100px",
-            }}
-          >
-            <h1>Northern</h1>
-            <h1>Thieves</h1>
-          </div>
-          {/* <div className={styles.logo}> */}
-          {/* <img
-              src="./light_logo.png"
+          {/* <div className={styles.logo}>
+            <img
+              src="./dark_logo.png"
               style={{
                 width: "50%",
                 height: "auto",
                 boxShadow: "5px 10px 18px #888888",
               }}
-            /> */}
-
-          {/* </div> */}
+            />
+          </div> */}
         </div>
-        <div className={styles.description}></div>
+        <div className={styles.description}>
+          <div>
+            Northern Thieves is a punk rock band from Charlotte, North Carolina.
+            <br />
+            They are currently working on new music and are hoping to begin
+            performing by the end of 2023.
+          </div>
+        </div>
 
         <div className={styles.grid}></div>
       </main>

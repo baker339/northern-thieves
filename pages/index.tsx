@@ -18,6 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.center}>
           <div
+            className={styles.title}
             style={{
               display: "flex",
               flexDirection: "column",

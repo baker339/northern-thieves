@@ -292,3 +292,15 @@
     opacity: 1;
   }
 }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 30px;
+  }
+}

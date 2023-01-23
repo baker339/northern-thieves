@@ -17,14 +17,7 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <div className={styles.center}>
-          <div
-            className={styles.title}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              fontSize: "100px",
-            }}
-          >
+          <div className={styles.title}>
             <h1>Northern</h1>
             <h1>Thieves</h1>
           </div>

@@ -137,6 +137,7 @@ nav {
   color: black; */
   background-color: black;
   color: white;
+  min-height: 60px;
 }
 .nav__menu-bar {
   display: flex;
@@ -147,7 +148,7 @@ nav {
 .nav__menu-bar div {
   width: 40px;
   height: 4px;
-  background-color: black;
+  background-color: white;
   border-radius: 2px;
 }
 .nav__menu-list {
@@ -183,9 +184,18 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+.nav_logo {
+  width: 10%;
+  padding: 0;
+}
+
 @media screen and (min-width: 768px) {
   .nav__menu-bar {
     display: none;
+  }
+  .nav__menu-bar div {
+    background-color: white;
   }
   .nav__menu-list {
     position: unset;
@@ -208,5 +218,10 @@ nav {
 
   .nav__link:hover:before {
     width: 100%;
+  }
+
+  .nav_logo {
+    width: 6%;
+    padding: 0;
   }
 }

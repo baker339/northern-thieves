@@ -16,10 +16,7 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link href={"/"}>
           <div>
-            <img
-              src="./logo_letters_dark.png"
-              style={{ width: "6%", padding: "0" }}
-            />
+            <img className="nav_logo" src="./logo_letters_dark.png" />
           </div>
         </Link>
         <div

@@ -17,37 +17,23 @@ export default function Contact() {
       </Head>
       <Navbar />
       <main className={styles.main}>
-        <div className={styles.center}>
-          {/* <div className={styles.logo}>
-            <img
-              src="./dark_logo.png"
-              style={{
-                width: "50%",
-                height: "auto",
-                boxShadow: "5px 10px 18px #888888",
-              }}
-            />
-          </div> */}
+        <div className={styles.social_container} style={{ fontSize: "65px" }}>
+          <div>
+            <a href="mailto:email@example.com">
+              <Email fontSize={"inherit"} />
+            </a>
+          </div>
+          <div>
+            <a href="https://facebook.com/profile.php?id=100089698571974">
+              <Facebook fontSize={"inherit"} />
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/NorthernThieves">
+              <Twitter fontSize={"inherit"} />
+            </a>
+          </div>
         </div>
-        <div className={styles.description} style={{ fontSize: "65px" }}>
-          {/* <div>
-            Northern Thieves is a punk rock band from Charlotte, North Carolina.
-            <br />
-            They are currently working on new music and are hoping to begin
-            performing by the end of 2023.
-          </div> */}
-          <a href="mailto:email@example.com">
-            <Email fontSize={"inherit"} />
-          </a>
-          <a href="https://facebook.com/profile.php?id=100089698571974">
-            <Facebook fontSize={"inherit"} />
-          </a>
-          <a href="https://twitter.com/NorthernThieves">
-            <Twitter fontSize={"inherit"} />
-          </a>
-        </div>
-
-        <div className={styles.grid}></div>
       </main>
     </>
   );

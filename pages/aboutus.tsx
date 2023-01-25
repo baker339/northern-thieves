@@ -16,18 +16,6 @@ export default function AboutUs() {
       </Head>
       <Navbar />
       <main className={styles.main}>
-        <div className={styles.center}>
-          {/* <div className={styles.logo}>
-            <img
-              src="./dark_logo.png"
-              style={{
-                width: "50%",
-                height: "auto",
-                boxShadow: "5px 10px 18px #888888",
-              }}
-            />
-          </div> */}
-        </div>
         <div className={styles.description}>
           <div>
             Northern Thieves is a punk rock band from Charlotte, North Carolina.
